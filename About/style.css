@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+nav{
+  background-color: #EC994B;
+  /* height: 80px; */
+  width: 100%;
+
+}
+label.logos{
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 30px;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 100%;
+}
+nav ul li a:hover{
+  background:#fff;
+  color: #EC994B;
+}
+
+.about-left{
+  margin: 7%;
+  margin-left: 100px;
+  align-items: center;
+  /* text-align: center; */
+}
+.about-pr p{
+  letter-spacing: 2px;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.heading h1{
+  font-size: 6rem;
+  font-weight: 700;
+  color: #3E6D9C;
+}
+.about-pr p:hover{
+}
+
+/* profiles */
+#numbers{
+  margin: 2%;
+  text-align: center;
+  background-size: cover;
+  background-color: #F9F9F9;
+}
+#numbers h1{
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #1746A2;
+}
+.profile {
+  margin: 100px 30px;
+}
+.profile h1{
+  font-weight: 600;
+  color:#3E6D9C;
+}
+.profile h3{
+  color: gray;
+  margin: 30px;
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 1.2px;
+}
+
+
+/* testimonial */
+#Companies{
+  padding: 7% 15%;
+  background-color: #EC994B;
+  text-align: center;
+}
+.companies-heading{
+  color: #0D4C92;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.company-name{
+    font-family: 'Montserrat', sans-serif;
+    color: #3E6D9C;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+}
+/* logo section */
+#press{
+  margin: 7%;
+  text-align: center;
+}
+#press h1{
+  margin: 7%;
+  font-size: 3rem;
+  color: #3E6D9C;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 1.2px;
+}
+.press-logo{
+  margin: 10px;
+}
+/* footer */
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-main i{
+  margin: 1%;
+  size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.footer-main h1{
+  font-weight: 600;
+  color: #3E6D9C;
+
+}
